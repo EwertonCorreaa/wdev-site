@@ -2,16 +2,16 @@
   <div id="app">
     <Header />
     <Home />
-    <Footer />
+    <Footer/>
 
   </div>
 </template>
 
 <script>
 import './styles/global.css' 
-import Header from './components/Header'
-import Home from './pages/Home' 
+import Header from './components/Header' 
 import Footer from './components/Footer.vue'
+import Home from './pages/Home'
 
 export default {
   name: 'App',
